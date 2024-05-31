@@ -27,7 +27,7 @@ const parsedText = ref('');
 
 async function generateText() {
   try {
-    const response = await fetch('http://localhost:5000/generate_text_stream', {
+    const response = await fetch('https://gdsc-upn-jatim-ml-muf7kziviq-as.a.run.app/generate_text_stream', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
